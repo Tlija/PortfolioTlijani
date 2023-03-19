@@ -10,11 +10,7 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs.sendForm('service_qpx0k1c', 'template_ylmdv5a', form.current, 'NotPKy8mu7BtrbQss')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
+          e.target.reset()
       };
   return (
     <section className="contact section" id="contact">

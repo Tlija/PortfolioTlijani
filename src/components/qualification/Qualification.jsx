@@ -18,7 +18,7 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={()=>toggleTab(1)}
+            onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
             Education
@@ -29,8 +29,7 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={()=>toggleTab(2)}
-
+            onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
             Experience
@@ -49,7 +48,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Baccalaureate</h3>
                 <span className="qualification__subtitle"> Lycee-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 -Present
+                  <i className="uil uil-calendar-alt"></i>2017 -Present
                 </div>
               </div>
               <div>
@@ -65,7 +64,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">License in LFSTIC</h3>
                 <span className="qualification__subtitle"> ISSAT-Gafsa</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2021 -Present
@@ -75,10 +74,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">Master in Cyber ​​Security</h3>
                 <span className="qualification__subtitle"> ISSAT-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 -Present
+                  <i className="uil uil-calendar-alt"></i>2022 -Present
                 </div>
               </div>
               <div>
@@ -94,33 +93,34 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle"> ISSAT-Gafsa</span>
+                <h3 className="qualification__title">Full-Stack Javascript Bootcamp</h3>
+                <span className="qualification__subtitle"> GoMyCode-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 -2022
+                  <i className="uil uil-calendar-alt"></i>2022 -2023
                 </div>
               </div>
             </div>
           </div>
 
-          <div  className={
+          <div
+            className={
               toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content "
-            }>
+            }
+          >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle"> GOMYCODE-Gafsa</span>
+                <h3 className="qualification__title">Internships: Computer Network Technician</h3>
+                <span className="qualification__subtitle"> Tunisie télécom-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2022 -2023
+                  <i className="uil uil-calendar-alt"></i>2019 -2018
                 </div>
-               
               </div>
               <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-                </div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
             </div>
 
             <div className="qualification__data">
@@ -145,12 +145,11 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>2021 - 2022
                 </div>
-              
               </div>
               <div>
-                  <span className="qualification__rounder"></span>
-                  <span className="qualification__line"></span>
-                </div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
             </div>
           </div>
         </div>
