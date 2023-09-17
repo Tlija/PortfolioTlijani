@@ -48,7 +48,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Baccalaureate</h3>
                 <span className="qualification__subtitle"> Lycee-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2017 -Present
+                  <i className="uil uil-calendar-alt"></i>2017-2018
                 </div>
               </div>
               <div>
@@ -67,7 +67,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">License in LFSTIC</h3>
                 <span className="qualification__subtitle"> ISSAT-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 -Present
+                  <i className="uil uil-calendar-alt"></i>2020-2021 
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Master in Cyber ​​Security</h3>
                 <span className="qualification__subtitle"> ISSAT-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2022 -Present
+                  <i className="uil uil-calendar-alt"></i>2022-2023 
                 </div>
               </div>
               <div>
@@ -133,7 +133,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">UX Designer</h3>
                 <span className="qualification__subtitle"> GOMYCODE-Gafsa</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 -Present
+                  <i className="uil uil-calendar-alt"></i>2020-2021 
                 </div>
               </div>
             </div>
@@ -149,6 +149,21 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Full-stack developer </h3>
+                <span className="qualification__subtitle"> Karma Solution</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>2023 -Present
+                </div>
               </div>
             </div>
           </div>
