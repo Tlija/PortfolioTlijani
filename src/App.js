@@ -8,7 +8,6 @@ import Qualification from './components/qualification/Qualification';
 import ScrillUp from './components/scrollup/ScrillUp';
 import Services from './components/services/Services';
 import Skills from './components/Skills/Skills';
-import Testimonials from './components/testimonials.jsx/Testimonials';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
      <Skills/>
      <Services/>
      <Qualification/>
-     {/* <Testimonials/> */}
      <Contact/>
      </main>
      <Footer/>
